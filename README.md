@@ -1,7 +1,15 @@
 # react-admin-panel
 A basic structure of an admin panel (SPA)
 
-Folder structure:
+# Functionalities included: 
+1. Application flow from login to dashboard
+2. Routing enabled in dashboard
+3. Login form validation (very basic) with loading spinner
+4. Display success/error/warning toaster notifications
+5. A middle method where we can check if user is authenticated/authorized every time a route changes. (Currently checking 'isLoggedIn' boolean in session storage)
+
+
+# Folder structure:
 
 1. admin dashboard content
 Contains a complete bootstrap/jquery based open source admin panel theme. I have taken only necessary parts from it into the react app.
@@ -12,4 +20,8 @@ I am not discarding above two folders so that code can be taken from them when r
 
 3. spa
 Contains the react app
+
+
+
+
 
